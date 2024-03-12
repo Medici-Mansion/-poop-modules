@@ -1,13 +1,6 @@
 {
   "name": "@poop/common",
   "version": "0.0.1",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Medici-Mansion/poop-common"
-  },
   "files": [
     "dist/*"
   ],
@@ -16,5 +9,5 @@
   "scripts": {
     "build": "tsc -b"
   },
-  "gitHead": "93672971d962eabf4117da2ae8a7dff728e98338"
+  "gitHead": "799fb081f88c8f012ab79cf05dabe1e699bcd8ff"
 }
