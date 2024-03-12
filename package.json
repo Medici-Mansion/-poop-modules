@@ -1,11 +1,15 @@
 {
   "name": "@poop/common",
   "version": "0.0.1",
+  "private": true,
   "files": [
     "dist/*"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsc -b"
   },
